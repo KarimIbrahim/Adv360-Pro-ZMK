@@ -112,7 +112,7 @@ layer_SYMBOLS {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                        &trans      &trans        &trans        &trans      &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                        &trans      &trans        &trans        &trans      &trans  &trans  &trans
- &trans  &kp MINUS  &kp UNDER PLUS  &kp  &kp EQUAL  &trans            &trans  &trans  &trans                  &trans    &trans      &trans      &trans        &kp LPAR        &kp RPAR      &trans  &trans  &trans
+ &trans  &kp MINUS  &kp PLUS  &kp UNDER  &kp EQUAL  &trans            &trans  &trans  &trans                  &trans    &trans      &trans      &trans        &kp LPAR        &kp RPAR      &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                            &trans        &trans        &trans      &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                          &trans        &trans      &trans  &trans  &trans
             >;
