@@ -78,11 +78,11 @@
 
         nav_layer {
             bindings = <
- &trans  &trans  &trans    &trans    &trans  &trans  &trans                                     &trans  &trans    &trans    &trans  &trans     &trans      &trans
- &trans  &trans  &trans    &trans    &trans  &trans  &trans                                     &trans  &trans    &trans    &trans  &trans     &trans      &trans  
- &trans  &trans  &kp LALT  &kp RALT  &trans  &trans  &trans  &kp LGUI  &trans &trans  &kp RGUI  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &caps_word  &trans
- &trans  &trans  &trans    &trans    &trans  &trans                    &trans &trans                    &trans    &trans    &trans  &trans     &trans      &trans
- &trans  &trans  &trans    &trans    &trans          &trans  &trans    &trans &trans  &trans    &trans            &trans    &trans  &trans     &trans      &trans
+ &trans  &trans     &trans         &kp UNDER        &trans     &trans  &trans                                     &trans  &trans    &trans    &trans  &trans     &trans      &trans
+ &trans  &trans     &trans         &trans           &trans     &trans  &trans                                     &trans  &trans    &trans    &trans  &trans     &trans      &trans  
+ &trans  &kp MINUS  &mt LALT PLUS  &mt LCTRL UNDER  &kp EQUAL  &trans  &trans  &kp LGUI  &trans &trans  &kp RGUI  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &caps_word  &trans
+ &trans  &trans     &trans         &trans           &trans     &trans                    &trans &trans                    &trans    &trans    &trans  &trans     &trans      &trans
+ &trans  &trans     &trans         &trans           &trans             &trans  &trans    &trans &trans  &trans    &trans            &trans    &trans  &trans     &trans      &trans
             >;
         };
 
