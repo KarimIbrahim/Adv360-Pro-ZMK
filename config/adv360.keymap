@@ -108,11 +108,11 @@
 
         symbols_layer {
             bindings = <
- &trans  &trans     &trans    &trans     &trans     &trans  &trans                                      &trans  &trans  &trans     &trans    &trans  &trans  &trans
- &trans  &trans     &trans    &trans     &trans     &trans  &trans                                      &trans  &trans  &trans     &trans    &trans  &trans  &trans
- &trans  &kp MINUS  &kp PLUS  &kp UNDER  &kp EQUAL  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans  &kp RCTRL  &kp RALT  &trans  &trans  &trans
- &trans  &trans     &trans    &trans     &trans     &trans                    &trans  &trans                    &trans  &trans     &trans    &trans  &trans  &trans
- &trans  &trans     &trans    &trans     &trans             &trans  &kp LGUI  &trans  &trans  &kp RGUI  &trans          &trans     &trans    &trans  &trans  &trans
+ &trans  &trans     &trans         &trans           &trans     &trans  &trans                                      &trans  &trans    &trans          &trans         &trans  &trans  &trans
+ &trans  &trans     &trans         &trans           &trans     &trans  &trans                                      &trans  &kp LBRC  &kp RBRC        &kp AMPS       &trans  &trans  &trans
+ &trans  &kp MINUS  &mt LALT PLUS  &mt LCTRL UNDER  &kp EQUAL  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &kp LPAR  &mt RCTRL RPAR  &mt RALT PIPE  &trans  &trans  &trans
+ &trans  &trans     &trans         &trans           &trans     &trans                    &trans  &trans                    &kp LBKT  &kp RBKT        &kp EXCL       &trans  &trans  &trans
+ &trans  &trans     &trans         &trans           &trans             &trans  &kp LGUI  &trans  &trans  &kp RGUI  &trans            &trans          &trans         &trans  &trans  &trans
             >;
         };
 
