@@ -48,11 +48,11 @@
 
         base_layer {
             bindings = <
- &kp EQUAL  &kp N1     &kp N2      &kp N3       &kp N4     &kp N5  &tog num                                                            &mo mod            &kp N6  &kp N7  &kp N8       &kp N9      &kp N0    &kp MINUS
- &kp TAB    &kp Q      &kp W       &kp E        &kp R      &kp T   &none                                                               &none              &kp Y   &kp U   &kp I        &kp O       &kp P     &kp BSLH
- &kp ESC    &kp A      &hm LALT S  &hm LCTRL D  &kp F      &kp G   &none          &kp LALT     &kp HOME  &mo PAGE_UP    &kp fun        &none              &kp H   &kp J   &hm RCTRL K  &hm RALT L  &kp SEMI  &kp SQT
- &kp LSHFT  &kp Z      &kp X       &kp C        &kp V      &kp B                               &kp END   &kp PAGE_DOWN                                    &kp N   &kp M   &kp COMMA    &kp DOT     &kp FSLH  &kp RSHFT
- &kp GRAVE  &kp GRAVE  &kp CAPS    &kp LEFT     &kp RIGHT          &lt nav SPACE  &lt sym DEL  &kp LGUI  &kp RGUI       &lt med ENTER  &lt num BACKSPACE  &kp UP  &kp DOWN     &kp LBKT    &kp RBKT  &kp EQUAL
+ &kp EQUAL  &kp N1     &kp N2      &kp N3    &kp N4     &kp N5  &tog num                                                            &mo mod            &kp N6  &kp N7  &kp N8     &kp N9      &kp N0    &kp MINUS
+ &kp TAB    &kp Q      &kp W       &kp E     &kp R      &kp T   &none                                                               &none              &kp Y   &kp U   &kp I      &kp O       &kp P     &kp BSLH
+ &kp ESC    &kp A      &hm LALT S  &kp D     &kp F      &kp G   &none          &kp LALT     &kp HOME  &mo PAGE_UP    &kp fun        &none              &kp H   &kp J   &kp K      &hm RALT L  &kp SEMI  &kp SQT
+ &kp LSHFT  &kp Z      &kp X       &kp C     &kp V      &kp B                               &kp END   &kp PAGE_DOWN                                    &kp N   &kp M   &kp COMMA  &kp DOT     &kp FSLH  &kp RSHFT
+ &kp LCTRL  &kp GRAVE  &kp CAPS    &kp LEFT  &kp RIGHT          &lt nav SPACE  &lt sym DEL  &kp LGUI  &kp RGUI       &lt med ENTER  &lt num BACKSPACE          &kp UP  &kp DOWN   &kp LBKT    &kp RBKT  &kp RCTRL
             >;
         };
 
@@ -78,21 +78,21 @@
 
         nav_layer {
             bindings = <
- &trans  &trans     &trans         &kp UNDER        &trans     &trans  &trans                                     &trans  &trans    &trans    &trans  &trans     &trans      &trans
- &trans  &trans     &trans         &trans           &trans     &trans  &trans                                     &trans  &trans    &trans    &trans  &trans     &trans      &trans  
- &trans  &kp MINUS  &mt LALT PLUS  &mt LCTRL UNDER  &kp EQUAL  &trans  &trans  &trans    &trans &trans  &trans    &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &caps_word  &trans
- &trans  &trans     &trans         &trans           &trans     &trans                    &trans &trans                    &trans    &trans    &trans  &trans     &trans      &trans
- &trans  &trans     &trans         &trans           &trans             &trans  &kp LGUI  &trans &trans  &kp RGUI  &trans            &trans    &trans  &trans     &trans      &trans
+ &trans  &trans     &trans         &kp UNDER  &trans     &trans  &trans                                     &trans  &trans    &trans    &trans  &trans     &trans      &trans
+ &trans  &trans     &trans         &trans     &trans     &trans  &trans                                     &trans  &trans    &trans    &trans  &trans     &trans      &trans  
+ &trans  &kp MINUS  &mt LALT PLUS  &kp UNDER  &kp EQUAL  &trans  &trans  &trans    &trans &trans  &trans    &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &caps_word  &trans
+ &trans  &trans     &trans         &trans     &trans     &trans                    &trans &trans                    &trans    &trans    &trans  &trans     &trans      &trans
+ &trans  &trans     &trans         &trans     &trans             &trans  &kp LGUI  &trans &trans  &kp RGUI  &trans            &trans    &trans  &trans     &trans      &trans
             >;
         };
 
         num_layer {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans    &trans                                      &trans  &trans  &trans  &trans     &trans    &trans  &trans
- &trans  &trans  &kp N7  &kp N8  &kp N9  &trans    &trans                                      &trans  &trans  &trans  &trans     &trans    &trans  &trans
- &trans  &trans  &kp N4  &kp N5  &kp N6  &kp DOT   &trans  &trans    &trans  &trans  &trans    &trans  &trans  &trans  &kp RCTRL  &kp RALT  &trans  &trans
- &trans  &trans  &kp N1  &kp N2  &kp N3  &kp N0                      &trans  &trans                    &trans  &trans  &trans     &trans    &trans  &kp RSHIFT
- &trans  &trans  &trans  &trans  &trans            &kp N0  &kp LGUI  &trans  &trans  &kp RGUI  &trans          &trans  &trans     &trans    &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans    &trans                                      &trans  &trans  &trans  &trans  &trans    &trans  &trans
+ &trans  &trans  &kp N7  &kp N8  &kp N9  &trans    &trans                                      &trans  &trans  &trans  &trans  &trans    &trans  &trans
+ &trans  &trans  &kp N4  &kp N5  &kp N6  &kp DOT   &trans  &trans    &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp RALT  &trans  &trans
+ &trans  &trans  &kp N1  &kp N2  &kp N3  &kp N0                      &trans  &trans                    &trans  &trans  &trans  &trans    &trans  &kp RSHIFT
+ &trans  &trans  &trans  &trans  &trans            &kp N0  &kp LGUI  &trans  &trans  &kp RGUI  &trans          &trans  &trans  &trans    &trans  &trans
             >;
         };
 
@@ -108,11 +108,11 @@
 
         symbols_layer {
             bindings = <
- &trans  &trans     &trans         &trans           &trans     &trans  &trans                                      &trans  &trans    &trans          &trans         &trans  &trans  &trans
- &trans  &trans     &trans         &trans           &trans     &trans  &trans                                      &trans  &kp LBRC  &kp RBRC        &kp AMPS       &trans  &trans  &trans
- &trans  &kp MINUS  &mt LALT PLUS  &mt LCTRL UNDER  &kp EQUAL  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &kp LPAR  &mt RCTRL RPAR  &mt RALT PIPE  &trans  &trans  &trans
- &trans  &trans     &trans         &trans           &trans     &trans                    &trans  &trans                    &kp LBKT  &kp RBKT        &kp EXCL       &trans  &trans  &trans
- &trans  &trans     &trans         &trans           &trans             &trans  &kp LGUI  &trans  &trans  &kp RGUI  &trans            &trans          &trans         &trans  &trans  &trans
+ &trans  &trans     &trans         &trans     &trans     &trans  &trans                                      &trans  &trans    &trans    &trans         &trans  &trans  &trans
+ &trans  &trans     &trans         &trans     &trans     &trans  &trans                                      &trans  &kp LBRC  &kp RBRC  &kp AMPS       &trans  &trans  &trans
+ &trans  &kp MINUS  &mt LALT PLUS  &kp UNDER  &kp EQUAL  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &kp LPAR  &kp RPAR  &mt RALT PIPE  &trans  &trans  &trans
+ &trans  &trans     &trans         &trans     &trans     &trans                    &trans  &trans                    &kp LBKT  &kp RBKT  &kp EXCL       &trans  &trans  &trans
+ &trans  &trans     &trans         &trans     &trans             &trans  &kp LGUI  &trans  &trans  &kp RGUI  &trans            &trans    &trans         &trans  &trans  &trans
             >;
         };
 
